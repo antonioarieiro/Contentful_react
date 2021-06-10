@@ -57,14 +57,16 @@
 
 ### Implementation
 
-- [ ] EM ANDAMENTO
-- [ ] 
-- [ ] 
-- [ ]
-- [ ]
-- [ ] 
-- [ ] 
-- [ ] 
+- [X] CONSUMO DOS DADOS DA NOSSA Contentfull
+- [X] Criação Da navBar
+- [X] Tela de Login
+- [X] Filtro das Lojas Atraves do Input
+#####################################################
+Em Desenvolvimento
+- [ ] Tela de Cadastro
+- [ ] Validação de Cadastro
+- [ ] Carregar tela para cada loja Quando For Clicada
+- [ ] Botao de Favoritar e Ver Mais
 
 <br>
 <p id="autor"></p>
