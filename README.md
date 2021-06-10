@@ -61,7 +61,8 @@
 - [X] Criação Da navBar
 - [X] Tela de Login
 - [X] Filtro das Lojas Atraves do Input
-#####################################################
+- #####################################################
+- 
 Em Desenvolvimento
 - [ ] Tela de Cadastro
 - [ ] Validação de Cadastro
