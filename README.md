@@ -29,7 +29,7 @@
 <hr>
   <p id="instalacao">
 	🔧 <b>Instalação</b>
-	<p>Primeiro Instale Cole o Proejto </p>
+	<p>Primeiro Clone o Proejto </p>
 	<p>Depois em seu terminal va ate a pasta content_test </p>
 	<p>Apos isso instale as Dependencias do Projeto</p>
 	<p><b>npm install</b></p>
