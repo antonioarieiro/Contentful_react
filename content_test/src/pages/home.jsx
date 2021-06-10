@@ -36,7 +36,7 @@ export default class Home extends React.Component {
                             <Link to="/Lojas"><p>Lojas</p></Link>
                             <div className="log">
                             <Link to="/"><p>Login</p></Link>
-                            <Link to="/"><p>Cadastre-se</p></Link>
+                            <Link to="#"><p>Cadastre-se</p></Link>
                             </div>
                         </nav>
                         </header>
