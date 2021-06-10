@@ -1,0 +1,36 @@
+.container {
+	margin: 0 auto;
+    width: 550px;
+	display: flex;
+    flex-direction: column;
+}
+
+.navigation p {
+    margin: 20px;
+    float: left;
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.log {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.container img {
+    display: flex;
+    margin: 0px auto;
+    width: 320px;
+}
+
+.container h1 {
+    margin: auto;
+}
+
+.container p {
+    font-weight: bolder;
+    font-size: 15px;
+    display: flex;
+    margin: 5px auto;
+}
