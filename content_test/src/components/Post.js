@@ -1,5 +1,6 @@
 import React from 'react';
 import '../pages/home.css';
+
 const Post = ({content}) => {
     console.log(content)
     const { defaultImage, description, name } = content.fields

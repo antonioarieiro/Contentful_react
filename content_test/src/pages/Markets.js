@@ -29,13 +29,13 @@ export default class Home extends React.Component {
                            <Link to="/"><p>Home</p></Link>
                            <Link to="/"><p>Lojas</p></Link>
                            <div className="log">
-                            <p>Login</p>
-                            <p>Cadastre-se</p>
+                           <Link to="/"><p>Login</p></Link>
+                            <Link to="/"><p>Cadastre-se</p></Link>
                            </div>
                        </nav>
                 </header>
                 <main>
-                    <div className="wrapper">
+                    <div>
                         <Posts posts={this.state.articles}/>
                     </div>
                 </main>
