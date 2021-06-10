@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+}
+.container-post {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: solid;
+	margin-left: 30px;
+    margin-top: 25px;
+    
+}
+
+.container-post {
+    display: inline-block;
+    
+}
+
+.container-post p {
+    max-width: 50ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.container-post img {
+    margin: 0px auto;
+    width: 150px;
+}
+
+.container-post h1 {
+    margin: auto;
+}
+
+.container-post:hover {
+    width: 500px;
+    top:-4px;box-shadow:0 4px 4px #999;
+   transition: all .2s ease-in-out
+}
+
+
+

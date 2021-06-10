@@ -1,12 +1,5 @@
-.wrapper {
+body {
     background-color: #3CB371;
-}
-
-.container {
-	margin: 0 auto;
-    width: 550px;
-	display: flex;
-    flex-direction: column;
 }
 
 .navigation p {
@@ -25,24 +18,6 @@
     justify-content:flex-end;
 }
 
-.container img {
-    display: flex;
-    margin: 0px auto;
-    width: 320px;
-}
-
-.container h1 {
-    margin: auto;
-}
-
-.container p {
-    color: #191970;
-    font-weight: bolder;
-    font-size: 15px;
-    display: flex;
-    margin: 5px auto;
-}
-
 .section {
     display: flex;
     margin: auto;
@@ -53,7 +28,7 @@
     display: table;
     width: 100%;
     height: 100vh;
-     padding: 100px 0;
+    padding: 100px 0;
 }
 
 .info {
