@@ -2,7 +2,7 @@
 
 <h1 align="center">ContetFull API</h1>
 🚀 Descrição do Projeto
-<p align="center">:open_file_folder: Projeto Utilizando Js | React | Route | Contentfull Client</p>
+<p align="center">:open_file_folder: Projeto Utilizando Js | React | Route | Contentfull API</p>
   <br>
   <br>
  <p align="center">
@@ -13,7 +13,7 @@
  <a href="#autor">Autor</a>
 </p>
   <br>
-  <p id="objetivo"> O projeto Consiste em uma Aplicação Virtural, que consome uma API </p>
+  <p id="objetivo"> O projeto Consiste em uma Aplicação Virtural, que consome uma API Contentfull </p>
   <br>
   <hr>
   <p id="func">
@@ -21,8 +21,8 @@
 <p id="funcionalidades">  Funcionalidades :
 	<ul>
 		<li> Navegação </li>
-		<li> Cadastro de Usuarios </li>
-		<li>  Cadastro de Despesas </li>
+		<li> Consulta nas Lojas </li>
+		<li> Filtro de Dados  </li>
 	</ul>
 </p>
 
