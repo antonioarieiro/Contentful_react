@@ -29,7 +29,9 @@
 <hr>
   <p id="instalacao">
 	🔧 <b>Instalação</b>
-	<p>Primeiro Instale as Dependencias do Proejto </p
+	<p>Primeiro Clone o Proejto </p>
+	<p>Depois em seu terminal va ate a pasta content_test </p>
+	<p>Apos isso instale as Dependencias do Projeto</p>
 	<p><b>npm install</b></p>
 	<p>Apos isso inicie </p>
 	<p><b>npm start</b></p>
