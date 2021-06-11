@@ -5,16 +5,21 @@ import './App.css'
 class App extends React.Component {
   state = { 
     name :'',
+    password:'',
   }
 
   handleChange = (e) => {
-    this.setState({name: e.target.value});
+    this.setState({[e.target.name]: e.target.value});
   }
 
   loginValidation = (e) => {
-    const { name } = this.state
-    if ( name.length < 4 ) {
-      alert("O nome de Usuario deve ter mais de 5 Caracteres");
+    const { name, password } = this.state
+    if ( name.length < 1 ) {
+      alert("O nome de Usuario não pode ser Vazio");
+      e.preventDefault();
+    }
+    if ( password.length < 1) {
+      alert("A senha não pode estar Vazia");
       e.preventDefault();
     }else {
       alert(`Bem Vindo ${name}`)
@@ -23,22 +28,28 @@ class App extends React.Component {
   }
 
   render() {
-    const { name } = this.state
     return(
   
       <div class="container">
-        <div class="box">
-          <h1>Sign In</h1>
-          <div class="row">
-            <input type="text" value={name}  placeholder="Username" required onChange={ this.handleChange }/>
-          </div>
-          <div class="row">
-            <input type="password" placeholder="Password" required />
-          </div>
-          <Link  to="/Home" onClick={this.loginValidation}>Login</Link>
-          <Link to="/"><p>Cadastre-se</p></Link>
-        </div>
-      </div>
+               <div class="box">
+                    <h1>Login</h1>
+                    <form>
+                        <div class="row">
+                            <input name="name" type="text" required  onChange={this.handleChange}/>
+                            <span>Username</span>
+                        </div>
+                        <div class="row">
+                            <input name="password" type="password" required onChange={this.handleChange}/>
+                            <span>Password</span>
+                        </div>
+                        <div class="row">
+                          <Link to="/Home"><input type="submit" value="Submit" onClick={this.loginValidation} /></Link>
+                        </div>
+                    </form>
+               </div>
+           </div>
+
+      
     )
   }
 }
