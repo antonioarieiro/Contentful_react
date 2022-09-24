@@ -1,4 +1,4 @@
-##### Hi, I'm Antonio Arieiro I'm Dev Jr. :boy: : 
+##### Hi, I'm Antonio Arieiro I'm Dev. :boy: : 
 
 <h1 align="center">ContetFull API</h1>
 🚀 Descrição do Projeto
